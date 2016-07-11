@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Kevin Mora | Web Developer - Designer</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+	
+	<script src = "js/jquery-1.12.2.min.js"></script>
+	<script src = "js/materialize.min.js"></script>
+	<script src = "js/typed.js"></script>
+	<script src = "js/chart.js"></script>
+	<script src = "js/scripts.js"></script>
+</head>
+<body>
+	<div class="contenedor">
+		<main>
+			<section id="fondo">
+				<div class="container">
+					<ul><li><h1 id="wel"></h1></li></ul>
+					<div id="resCP" class="fonResume card-panel row hoverable hide">
+						<div class="col s12 m6">
+							<img class="responsive-img hoverable" id="kevPic" src="img/kevin.jpg">
+							<ul id="social">
+								<li><a href="https://www.facebook.com/kevin.mora.5249" target="_blank" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+								<li><a href="https://twitter.com/kitara94" target="_blank" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Follow me!"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+							</ul>
+							<button data-target="modal1" class="waves-effect waves-light btn modal-trigger hire">contact me!</button>
+						</div>
+						
+						<div class="col s12 m6">
+							<h4>Kevin Mora Gamboa</h4>
+							<h6>Co-founder - L' Vert Estudio.</h6>
+							<p>Kevin is Proactive and good oriented, always creating and promoting new and creative ideas. Loving music, code and discovering new food out there.</p>
+							<p>Bachelor’s degree in Informática y Tecnología Multimedia at Universidad de Costa Rica (2014 - Present)</p>
+							<h5>My Skills</h5>
+							<canvas id="myChart"></canvas>
+							
+							<h5>Projects</h5>
+							<p id="prj"><a href="https://parque.github.io" target="_blank" class="tooltipped" data-position="right" data-delay="50" data-tooltip="Enjoy It!">Web Documentary</a></p>
+							<p id="prj"><a href="https://github.com/kevinmora94" target="_blank" class="tooltipped" data-position="right" data-delay="50" data-tooltip="GitHub Repository">My GitHub</a></p>
+							<p id="prj"><a href="http://lvertestudio.com" target="_blank" class="tooltipped" data-position="right" data-delay="50" data-tooltip="Web Dev. Studio">L' Vert Estudio</a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Modal Structure -->
+						  <div id="modal1" class="modal">
+						    <div class="modal-content">
+						      <h4 id="hiForm">Say Hi :)</h4>
+						      <div class="row">
+							    <form class="col s12">
+							      <div class="row">
+							        <div class="input-field col s12 m6">
+							          <input id="name" type="text" class="validate" required>
+							          <label for="name">Name</label>
+							        </div>
+							        <div class="input-field col s12 m6">
+							          <input id="email" type="text" class="validate" required>
+							          <label for="email">email</label>
+							        </div>
+							      </div>
+							      <div class="row">
+							      		<div class="input-field col s12">
+								          <input id="subject" type="text" class="validate" required>
+								          <label for="subject">Subject</label>
+								        </div>
+							      </div>
+							      <div class="row">
+							      		<div class="input-field col s12">
+								          	<textarea id="msg" class="materialize-textarea" required></textarea>
+          									<label for="msg">Message</label>
+								        </div>
+							      </div>
+							      <div class="row">
+							      	<button class="col s12 waves-effect waves-light btn green lighten-2">Send <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+							      </div>
+							    </form>
+							  </div>
+						    </div>
+						    <div class="modal-footer mdFo">
+						      <a href="#!" class="modal-action modal-close btn-flat btnClose">X</a>
+						    </div>
+						  </div>
+						  <!-- FIN MODAL -->
+		</main>
+	</div>
+</body>
+</html>
