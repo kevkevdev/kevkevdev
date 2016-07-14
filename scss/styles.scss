@@ -41,9 +41,17 @@ body{
 					}
 				}
 			}
-			.hire{
+			/* .hire{
 				background-color: #d0d979!important;
 				color: #666;
+			} */
+			#sobre{
+				color: #ff5252;
+				font-size: 30px;
+			}
+			#correo{
+				border-bottom: none;
+				margin-left: 10px;
 			}
 			h4{
 				color: #333;
@@ -80,9 +88,27 @@ body{
 		background-color: #ff5252;
 	}
 }
+@media screen and (max-width: 900px){
+	#sobre{
+		font-size: 25px!important;
+		margin-left: -28px;
+	}
+	#correo{
+		font-size: 20px;
+	}
+}
 @media screen and (max-width: 800px){
 	h5{
 		width: 40%!important;
+	}
+}
+@media screen and (max-width: 700px){
+	#sobre{
+		font-size: 20px!important;
+		margin-left: -19px;
+	}
+	#correo{
+		font-size: 17px;
 	}
 }
 @media screen and (max-width: 600px){
@@ -95,6 +121,13 @@ body{
 	#wel{
 		font-size: 80px!important;
 	}
+	#sobre{
+		font-size: 20px!important;
+		margin-left: -19px;
+	}
+	#correo{
+		font-size: 18px;
+	}
 }
 @media screen and (max-width: 400px){
 	h5{
@@ -103,5 +136,12 @@ body{
 	}
 	#wel{
 		font-size: 60px!important;
+	}
+	#sobre{
+		font-size: 20px!important;
+		margin-left: -19px;
+	}
+	#correo{
+		font-size: 17px!important;
 	}
 }
