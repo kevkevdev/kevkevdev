@@ -18,11 +18,12 @@ $(document).ready(function(){
 					var myChart = new Chart(ctx, {
 					    type: 'horizontalBar',
 					    data: {
-					        labels: ["NodeJS", "AngularJS", "MEAN Dev", "Javascript", "jQuery", "SCSS", "MYSQL", "Adobe Photoshop", "Adobe Premiere"],
+					        labels: ["HTML5 - CSS3","NodeJS", "AngularJS", "MEAN Dev", "Javascript", "jQuery", "SCSS", "MYSQL", "Adobe Photoshop", "Adobe Premiere"],
 					        datasets: [{
 					            label: 'My Skills',
-					            data: [7, 8, 6, 8, 8, 7, 6, 6.5, 6.5],
+					            data: [9, 8, 8, 7, 8.5, 8, 7, 8, 7, 7],
 					            backgroundColor: [
+					            	"rgba(32, 149, 242, 0.8)",
 					            	"rgba(153, 190, 79, 0.8)",
 					                'rgba(255, 99, 132, 0.8)',
 					                "rgba(75, 38, 75, 0.8)",				               
@@ -34,6 +35,7 @@ $(document).ready(function(){
 					                'rgba(159, 63, 104, 0.8)'
 					            ],
 					            hoverBackgroundColor: [
+					            	"rgba(32, 149, 242, 0.8)",
 					            	"rgba(153, 190, 79, 0.8)",
 					                "rgba(255, 99, 132, 0.8)",
 					                "rgba(75, 38, 75, 0.8)",
