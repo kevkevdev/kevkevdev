@@ -75,6 +75,16 @@ body {
   font-weight: bold;
 }
 
+.contenedor #fondo .fonResume #txtKev {
+  text-align: justify;
+  font-size: 16px;
+}
+
+.contenedor #fondo .fonResume #txtUnv {
+  text-align: justify;
+  font-size: 16px;
+}
+
 .contenedor #fondo .fonResume p {
   text-align: left;
 }
