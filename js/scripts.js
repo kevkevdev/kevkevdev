@@ -18,12 +18,12 @@ $(document).ready(function(){
 					var myChart = new Chart(ctx, {
 					    type: 'horizontalBar',
 					    data: {
-					        labels: ["HTML5 - CSS3","NodeJS", "AngularJS", "MEAN Dev", "Javascript", "jQuery", "SCSS", "MYSQL", "Adobe Photoshop", "Adobe Premiere"],
+					        labels: ["HTML5 - CSS3","NodeJS", "AngularJS", "MEAN Dev", "Javascript", "jQuery", "SCSS", "MYSQL", "PHP", "Adobe Photoshop", "Adobe Premiere"],
 					        datasets: [{
 					            label: 'My Skills',
-					            data: [9, 8, 8, 7, 8.5, 8, 7, 8, 7, 7],
+					            data: [9, 8, 8, 7, 8.5, 8, 7, 8, 8.5, 7, 7],
 					            backgroundColor: [
-					            	"rgba(32, 149, 242, 0.8)",
+					            	'rgba(238, 255, 112, 0.7)',					            	
 					            	"rgba(153, 190, 79, 0.8)",
 					                'rgba(255, 99, 132, 0.8)',
 					                "rgba(75, 38, 75, 0.8)",				               
@@ -31,11 +31,12 @@ $(document).ready(function(){
 					                'rgba(233, 104, 104, 0.8)',
 					                'rgba(253, 168, 155, 0.8)',
 					                'rgba(253, 212, 199, 0.8)',
+					                "rgba(32, 149, 242, 0.8)",
 					                'rgba(66, 120, 160, 0.8)',
 					                'rgba(159, 63, 104, 0.8)'
 					            ],
 					            hoverBackgroundColor: [
-					            	"rgba(32, 149, 242, 0.8)",
+					            	'rgba(238, 255, 112, 0.7)',
 					            	"rgba(153, 190, 79, 0.8)",
 					                "rgba(255, 99, 132, 0.8)",
 					                "rgba(75, 38, 75, 0.8)",
@@ -43,6 +44,7 @@ $(document).ready(function(){
 					                "rgba(233, 104, 104, 0.8)",
 					                "rgba(253, 168, 155, 0.8)",
 					                "rgba(253, 212, 199, 0.8)",
+					                "rgba(32, 149, 242, 0.8)",
 					                "rgba(66, 120, 160, 0.8)",
 					                "rgba(159, 63, 104, 0.8)"
 					            ]				            
